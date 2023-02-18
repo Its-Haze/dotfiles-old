@@ -4,22 +4,33 @@
 if command -v apt-get >/dev/null 2>&1; then
     # Install packages for Debian-based distributions
     sudo apt-get install -y zsh tmux neovim curl git
+
+    # Set ZSH as the default shell
+    chsh -s $(which zsh)
+
     sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 elif command -v dnf >/dev/null 2>&1; then
     # Install packages for Fedora-based distributions
     sudo dnf install -y zsh tmux neovim curl git
+
+    # Set ZSH as the default shell
+    chsh -s $(which zsh)
+
     sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 elif command -v pacman >/dev/null 2>&1; then
     # Install packages for Arch-based distributions
     sudo pacman -S --noconfirm zsh tmux neovim curl git
+
+    # Set ZSH as the default shell
+    chsh -s $(which zsh)
+
     sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 else
     echo "Unsupported distribution"
     exit 1
 fi
 
-# Set ZSH as the default shell
-chsh -s $(which zsh)
+
 
 
 # Clone TPM (Tmux package manager)
