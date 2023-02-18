@@ -29,8 +29,8 @@ git clone https://github.com/Its-Haze/dotfiles.git ~/dotfiles
 cp ~/dotfiles/zsh/.zshrc ~/.zshrc
 cp ~/dotfiles/zsh/custom.zsh ~/.oh-my-zsh/custom/custom.zsh
 cp ~/dotfiles/oh-my-zsh/themes/custom.zsh-theme ~/.oh-my-zsh/custom/themes/
-cp ~/dotfiles/oh-my-zsh/plugins/plugin1/plugin1.zsh ~/.oh-my-zsh/custom/plugins/plugin1/
-cp ~/dotfiles/oh-my-zsh/plugins/plugin2/plugin2.zsh ~/.oh-my-zsh/custom/plugins/plugin2/
+#cp ~/dotfiles/oh-my-zsh/plugins/plugin1/plugin1.zsh ~/.oh-my-zsh/custom/plugins/plugin1/
+#cp ~/dotfiles/oh-my-zsh/plugins/plugin2/plugin2.zsh ~/.oh-my-zsh/custom/plugins/plugin2/
 cp ~/dotfiles/tmux/.tmux.conf ~/.tmux.conf
 mkdir -p ~/.config/nvim/
 cp ~/dotfiles/nvim/init.vim ~/.config/nvim/
