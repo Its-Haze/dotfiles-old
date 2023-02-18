@@ -39,7 +39,7 @@ cp ~/dotfiles/powerlevel10k/.p10k.zsh ~/.p10k.zsh
 #cp ~/dotfiles/oh-my-zsh/plugins/plugin2/plugin2.zsh ~/.oh-my-zsh/custom/plugins/plugin2/
 cp ~/dotfiles/tmux/.tmux.conf ~/.tmux.conf
 mkdir -p ~/.config/nvim/
-cp ~/dotfiles/kickstart.nvim/init.vim ~/.config/nvim/
+cp ~/dotfiles/kickstart.nvim/init.lua ~/.config/nvim/
 #cp ~/dotfiles/nvim/coc-settings.json ~/.config/nvim/
 
 # Set the ZSH-THEME to powerlevel10k
